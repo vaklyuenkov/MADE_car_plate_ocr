@@ -26,8 +26,8 @@ CRNN model with ResNet18 backbone.
 * dropout=0.3
 * loss - ctc_loss
 * optimizer- Adam
-    lr=3e-4
-    weight_decay=1e-4
+  * lr=3e-4
+  * weight_decay=1e-4
 
 ### Bad ideas:
 For recognition cut rectangles with sccore above treshold or rectangle with highest score.
