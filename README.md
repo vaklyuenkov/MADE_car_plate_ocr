@@ -1,6 +1,6 @@
 # Car plate ocr
 
-Solution based on baseline by Mikhail Gurevich: https://www.kaggle.com/mgurevich/baseline-with-crnn
+Solution based on baseline by Mikhail Gurevich: https://www.kaggle.com/mgurevich/baseline-with-crnn.
 Models for detection of car plates and text recognition were trained separately. 
 Detection model generate a bounding box for each plate, then rectangle is cut out for recognition.
 
