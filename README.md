@@ -8,7 +8,7 @@ Models for detection of car plates and text recognition were trained separately.
 Faster R-CNN model with a ResNet-50-FPN backbone
 * num_epochs to best model on validation  = 2 
 * optimizer - SGD
-  * lr=0.005,
+  * lr=0.005
   * momentum=0.9
 * scheduler - StepLR
   * weight_decay=0.0005
